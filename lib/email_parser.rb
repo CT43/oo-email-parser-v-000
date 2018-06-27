@@ -8,6 +8,11 @@ class EmailParser
   @@emails = []
   def initialize(emails)
     @emails = emails
+    self.class.all << self
+  end
+
+  def self.all
+    @@emails
   end
 
   def parse
