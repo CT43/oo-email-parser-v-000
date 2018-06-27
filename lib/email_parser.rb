@@ -14,7 +14,7 @@ class EmailParser
     a = email_list.split(",").join(" ").split(" ")
     parsed_list = []
     a.each do |email|
-      if parsed_list.include?(email)
+      if !parsed_list.include?(email)
         parsed_list << email
       end
     end
