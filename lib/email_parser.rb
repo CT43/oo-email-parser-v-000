@@ -12,7 +12,7 @@ class EmailParser
 
   def parse
     email_list.split(",").join(" ").split(" ")
-    parsed_list = [] 
+    parsed_list = []
     email_list.each do |email|
       if parsed_list.include?(email)
         parsed_list << email
