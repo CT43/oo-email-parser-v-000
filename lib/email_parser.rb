@@ -8,11 +8,10 @@ class EmailParser
 
   def initialize(email_list)
     @email_list = email_list
-
   end
 
   def parse
-    emails_list.split(", ")
+    email_list.split(", ")
 
 
   end
