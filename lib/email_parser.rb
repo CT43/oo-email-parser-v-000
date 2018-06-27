@@ -5,12 +5,13 @@
 
 class EmailParser
 
+  @@emails = []
   def initialize(emails)
-    @emails = emails 
-
+    @emails = emails
   end
 
   def parse
+
 
   end
 
