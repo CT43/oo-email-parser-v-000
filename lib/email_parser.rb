@@ -18,6 +18,8 @@ class EmailParser
         parsed_list << email
       end
     end
+    parsed_list
+    
 
   end
 
