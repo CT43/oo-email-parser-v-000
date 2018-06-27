@@ -11,7 +11,9 @@ class EmailParser
   end
 
   def parse
-    email_list.split(",").join(" ").split(" ")
+    email_list.split(",").join(" ").split(" ").unique
+
+
 
 
   end
