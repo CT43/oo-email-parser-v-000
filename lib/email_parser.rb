@@ -16,7 +16,7 @@ class EmailParser
   end
 
   def parse
-    @@emails.split(",")
+    @@emails.to_s.split(",")
 
   end
 
