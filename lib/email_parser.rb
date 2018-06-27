@@ -6,18 +6,13 @@ require 'pry'
 class EmailParser
   attr_accessor :email_list
 
-  @@emails = []
   def initialize(email_list)
     @email_list = email_list
 
   end
 
-  def self.all
-    @@emails
-  end
-
   def parse
-  
+    emails_list.split(", ")
 
 
   end
