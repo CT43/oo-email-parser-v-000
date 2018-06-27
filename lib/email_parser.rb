@@ -11,9 +11,9 @@ class EmailParser
   end
 
   def parse
-    email_list.split(",").join(" ").split(" ")
+    a = email_list.split(",").join(" ").split(" ")
     parsed_list = []
-    email_list.each do |email|
+    a.each do |email|
       if parsed_list.include?(email)
         parsed_list << email
       end
