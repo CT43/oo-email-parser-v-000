@@ -19,8 +19,5 @@ class EmailParser
       end
     end
     parsed_list
-
-
   end
-
 end
